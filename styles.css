@@ -1,0 +1,49 @@
+.container {
+    border-radius: 15px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('BGSchool.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    width: 50%;
+    margin: 0 auto 20px auto;
+}
+
+/* NOTEBOOK HTML */
+
+.sidebar {
+    width: 200px;
+    min-height: 100vh;
+    background-color: #1a1a2e;
+    flex-shrink: 0;
+}
+
+.card {
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.progress {
+    height: 25px;
+}
