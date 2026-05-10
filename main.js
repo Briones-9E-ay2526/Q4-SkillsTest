@@ -21,7 +21,7 @@ function checkLogin() {
     // it displays what happens using switch/case
     switch (status) {
         case "success":
-            window.alert("Correct! You may now login.");
+            window.alert("Welcome, " + username + "!");
             window.location.href = "notebook.html";
             break;
         case "failed":
